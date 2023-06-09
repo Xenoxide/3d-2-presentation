@@ -23,3 +23,5 @@ If you have some 3D points with the coordinates $(x, y, z)$, you may be tempted 
 The computer only handles numbers. When it seems to do geometry, it has been tricked into doing it.
 
 # Linear algebra <!-- Slide 6 -->
+It's not the kind you're thinking of.
+$$\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$$

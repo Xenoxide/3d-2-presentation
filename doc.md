@@ -20,8 +20,20 @@ If you have some 3D points with the coordinates $(x, y, z)$, you may be tempted 
 ![](images/5_vanishing_points.jpg){height=200}
 
 # What does the computer know? <!-- Slide 5 -->
-The computer only handles numbers. When it seems to do geometry, it has been tricked into doing it.
+The computer knows nothing but numbers. The computer doesn't know what a shape is, what geometry is. We need to turn our shapes into numbers, give it to the computer, and turn the numbers back into shapes.
+
+![](images/6_bresenham.gif){height=125} \ ![](images/7_line.svg){height=125}
 
 # Linear algebra <!-- Slide 6 -->
-It's not the kind you're thinking of.
-$$\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$$
+Equations:
+$2x - 3y = 4$
+$3x - 5y = -1$
+
+Matrix and vectors:
+$$
+\begin{bmatrix}2 & -3 \\ 3 & -5\end{bmatrix}
+\begin{bmatrix}x \\ y\end{bmatrix}= 
+\begin{bmatrix}4 \\ -1\end{bmatrix}
+$$
+
+# Matrix multiplication <!-- Slide 7 -->

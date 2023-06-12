@@ -11,7 +11,10 @@ Artists may know another method. You draw 1, 2, or 3 vanishing points and draw o
 A computer has a set of points and a screen of pixels. It doesn't know how to draw lines to vanishing points, because there's no sense of a sheet of paper. It only knows numbers. So it must have another strategy.
 
 # Slide 6
-Linear algebra. I won't go into the details, but know that this is essential to the process. When I'm referring to a matrix, I'm talking about the thing on the left. The thing on the right is a vector. Imagine it this way, you have a set of numbers, you use the matrix on them, and you get another set of numbers. Each of the numbers you get is a combination of the multiples of your initial numbers. This concept alone can carry the whole process of graphics. And AI. It also has a say in most, if not all forms of advanced science. There are many things you can do to vectors and matrices.
+Linear algebra. I'll just talk about what's relevant. When I'm referring to a matrix, I'm talking about the thing on the left. The thing on the right is a vector. Imagine it this way, you have a set of numbers, you use the matrix on them, and you get another set of numbers. Each of the numbers you get is a combination of the multiples of your initial numbers. This concept alone can carry the whole process of graphics. And AI. It also has a say in most, if not all forms of advanced science. There are many things you can do to vectors and matrices.
 
 # Slide 7
-You put the set of numbers through one matrix, and through another matrix, and another. Isn't there a better way to do this? You can combine two matrices to make another one, that does the same thing as both at the same time! 
+You put the set of numbers through one matrix, and through another matrix, and another. Isn't there a better way to do this? You can combine two matrices to make another one, that does the same thing as both at the same time! This is called matrix multiplication. Careful though, the product of two matrices is different depending on the order that you do it! This is analogous to how applying two operations to something gives a different result, depending the on the order.
+
+# Slide 8
+How are 3D objects stored on the computer? There are a bunch of points, each with an X, Y, and Z component. These points are put together to form triangles, and these triangles alone form 3 dimensional shapes.

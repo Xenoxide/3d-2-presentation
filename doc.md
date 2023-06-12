@@ -30,10 +30,17 @@ $2x - 3y = 4$
 $3x - 5y = -1$
 
 Matrix and vectors:
-$$
+$
 \begin{bmatrix}2 & -3 \\ 3 & -5\end{bmatrix}
 \begin{bmatrix}x \\ y\end{bmatrix}= 
 \begin{bmatrix}4 \\ -1\end{bmatrix}
-$$
+$
 
 # Matrix multiplication <!-- Slide 7 -->
+Improvements like these are called *optimizations*. \
+![](images/8_inefficient_multiplication.png){height=125} \ ![](images/9_better_multiplication.png){height=125}
+
+Add one then square it: $(x + 1)^2$
+Square it then add one: $x^2 + 1$
+
+# 3D objects <!-- Slide 8 -->

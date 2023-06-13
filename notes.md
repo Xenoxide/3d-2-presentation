@@ -17,4 +17,7 @@ Linear algebra. I'll just talk about what's relevant. When I'm referring to a ma
 You put the set of numbers through one matrix, and through another matrix, and another. Isn't there a better way to do this? You can combine two matrices to make another one, that does the same thing as both at the same time! This is called matrix multiplication. Careful though, the product of two matrices is different depending on the order that you do it! This is analogous to how applying two operations to something gives a different result, depending the on the order.
 
 # Slide 8
+You may be familiar with 2 dimensional points. These have an X component and a Y component. To go to the point (2, 3), you travel 2 in the X direction and 3 in the Y direction. This concept can be extended to 3 dimensions. There is an X, Y, and Z component. For example, you may have the point (1, 2, 1). For the sake of calculation, a fourth point may be included, the W component, which is equal to 1. 
+
+# Slide 9
 How are 3D objects stored on the computer? There are a bunch of points, each with an X, Y, and Z component. These points are put together to form triangles, and these triangles alone form 3 dimensional shapes.

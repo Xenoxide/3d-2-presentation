@@ -43,4 +43,7 @@ Improvements like these are called *optimizations*. \
 Add one then square it: $(x + 1)^2$
 Square it then add one: $x^2 + 1$
 
-# 3D objects <!-- Slide 8 -->
+# Points in 3 dimensions <!-- Slide 8 -->
+![](images/10_2d_cartesian_coordinates.png){height=125} \ ![](images/11_3d_cartesian_coordinates.png){height=125}
+
+# 3D objects <!-- Slide 9 -->
